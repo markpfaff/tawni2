@@ -1,0 +1,211 @@
+/*
+Theme Name: tawnieakman
+Layout: Sidebar-Content
+*/
+
+.content-area {
+	float: right;
+	/*margin: 0 0 0 -25%;*/
+	width: 10em;
+}
+
+/*about and contact pages*/
+.page-id-15 .site-main, .page-id-18 .site-main {
+       background-color: rgba(255, 255, 255, .9);
+       width:60%;
+       padding:.2em 1em;
+       height:32em;
+       
+}
+
+@media screen and (max-width: 850px) {
+    .page-id-15 .site-main, .page-id-18 .site-main {    
+       height:auto;
+       margin: 150px auto 0 auto !important;
+       width: 100%;
+    }
+    
+    .ngg-widget img {
+    margin: 0px auto 0px 28% !important;
+    }
+
+}
+
+/*about page footer positioning
+body.page-id-15 {
+        padding-bottom:7%;
+        
+}*/
+
+/*about page*/
+.page-id-15 .site-main {
+       overflow-y:auto;
+}
+
+.site-main {
+    margin:0 auto;
+    position: absolute;
+    top: 10em;
+    left: 30%;
+    padding-right:20px;
+}
+
+@media screen and (max-width: 850px) {
+    .site-main {
+    margin:10em auto;
+    position: relative;
+    top: auto;
+    left:auto;
+    }
+}
+
+/*about and contact pagse*/
+.page-id-15 .content-area, .page-id-18 .content-area {
+        margin: 2em 0 2em 0;
+}
+
+/*about page*/
+.page-id-15 .content-area {
+        margin: 2em 7.5% 0 0;
+}
+
+/*about and contact pages*/
+.page-id-18 .site-main, .page-id-15 .site-main {
+        margin: 0 auto;
+}
+
+/*remove scroll on contact page*/
+.page-id-18 .site-main {
+        overflow:hidden;
+}
+
+
+/*contact page*/
+.page-id-18 .content-area {
+	width: 40%;
+        float:none;
+        margin: 0 auto;
+        padding: 1em 0 2em 0;
+}
+
+@media screen and (max-width: 850px) {
+    .page-id-18 .content-area {
+	width: 90%;
+    }
+    
+    form {
+        width:90%;
+    }
+    
+    /*contact page*/
+    .page-id-18 .site-main {
+    margin: 120px auto;
+    width: 90%;
+    float: none;
+    position: static;
+    clear: both;
+    }
+}
+
+.site-content .widget-area {
+	float: left;
+	overflow: hidden;
+/*	width: 20%;*/
+        margin: 20em 0 0 2%;
+}
+
+.page-id-15 .site-content .widget-area {
+        margin: 12em 0 0 8%;
+}
+
+@media screen and (max-width: 850px) {
+    .site-content .widget-area {
+        display:none;
+    }
+
+    .page-id-15 .site-content .widget-area {
+        float:none;
+        clear:both;
+        display:block;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #secondary, .content-area {
+        float:none;
+        clear:both;
+        width:100%;
+        margin:0 auto !important;
+    }
+    
+    .widget-area ul {
+        float:none !important;
+        margin:0 auto !important;
+        clear:both;
+        width:100%;
+    }
+    
+    .site-content .widget-area ul li {
+        display:inline;
+        float:left;
+        width:30%;
+    }
+    
+}
+
+/*portfolio sidebars
+ 13=main portfolio page
+ 26=portrait
+ 11=wedding
+ 7=maternity
+*/
+/*.page-id-13 .site-content .widget-area,
+.page-id-7 .site-content .widget-area,
+.page-id-11 .site-content .widget-area,
+.page-id-26 .site-content .widget-area {
+        margin: 4em 0 0 2%;
+
+}*/
+
+/*portfolio menu items ul
+.page-id-13 .site-content .widget-area ul,
+.page-id-7 .site-content .widget-area ul,
+.page-id-11 .site-content .widget-area ul,
+.page-id-26 .site-content .widget-area ul {
+	float: left;
+}*/
+
+/*portfolio menu items ul li*/
+.page-id-13 .site-content .widget-area ul li,
+.page-id-7 .site-content .widget-area ul li,
+.page-id-11 .site-content .widget-area ul li,
+.page-id-26 .site-content .widget-area ul li {
+        padding-bottom:1em;
+}
+
+/*all portfolio page content areas*/
+.page-id-13 .content-area,
+.page-id-7 .content-area,
+.page-id-11 .content-area,
+.page-id-26 .content-area {
+        width:60%;
+        margin-right:10%;
+}
+
+@media screen and (max-width: 850px) {
+    .page-id-13 .content-area,
+    .page-id-7 .content-area,
+    .page-id-11 .content-area,
+    .page-id-26 .content-area {
+            width:90%;
+    }
+}
+.site-content .widget-area ul {
+	float: right;
+	display:block;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
